@@ -1,3 +1,7 @@
 # Binary_Beacons_Innovate-X_Hackathon
-TEAM NAME: - BINARY BEACONS<br>
-Team Members: - Ansh Tiwari (Leader), Archit Sharma, Animesh Pratap Singh, Shradha Das
+<h3>TEAM NAME: - BINARY BEACONS<br></h3>
+<h5>TEAM MEMBERS: -</h5><br><br>
+Ansh Tiwari (Leader)<br>
+Archit Sharma<br>
+Animesh Pratap Singh<br>
+Shradha Das
