@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigger.dev - Enhanced by Binary Beacons | AI-Powered Background Jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body data-color-scheme="dark">
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header glass-header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <div class="brand-logo">
+                    <img src="https://user-gen-media-assets.s3.amazonaws.com/gpt4o_images/652d9686-1e32-4aca-880d-1247b12292be.png" alt="Binary Beacons" class="brand-logo__img">
+                    <div class="brand-text">
+                        <span class="nav__brand-text">Trigger.dev</span>
+                        <span class="brand-enhancement">Enhanced by Binary Beacons</span>
+                    </div>
+                </div>
+            </div>
+            
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#" class="nav__link" data-page="product">Product</a></li>
+                <li><a href="#" class="nav__link">Docs</a></li>
+                <li><a href="#" class="nav__link" data-page="pricing">Pricing</a></li>
+                <li><a href="#" class="nav__link" data-page="examples">Examples</a></li>
+                <li><a href="#" class="nav__link" target="_blank">GitHub</a></li>
+            </ul>
+            
+            <div class="nav__actions">
+                <button class="btn btn--outline btn--sm glass-btn">Sign in</button>
+                <button class="btn btn--primary btn--sm glow-btn" id="getStartedBtn">Get started for free</button>
+            </div>
+            
+            <button class="nav__toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Homepage -->
+        <div id="homepage" class="page">
+            <!-- Hero Section -->
+            <section class="hero enhanced-hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <div class="hero-badge animate-glow">
+                            <span class="badge-icon">🚀</span>
+                            <span>Powered by Binary Beacons AI</span>
+                        </div>
+                        <h1 class="hero__title typing-animation">Background jobs & AI infrastructure</h1>
+                        <p class="hero__subtitle">Write workflows in async code. Deploy and scale with zero infrastructure. Build invincible AI apps with Binary Beacons enhancements.</p>
+                        <div class="hero__actions">
+                            <button class="btn btn--primary btn--lg glow-btn" id="heroGetStarted">Get started now</button>
+                            <button class="btn btn--outline btn--lg glass-btn" id="viewAiFeatures">View AI Features</button>
+                        </div>
+                    </div>
+                    <div class="hero__code">
+                        <div class="code-block glass-card">
+                            <div class="code-block__header">
+                                <div class="code-tabs">
+                                    <span class="code-tab active">example.ts</span>
+                                    <span class="binary-beacons-badge">Binary Beacons Enhanced</span>
+                                </div>
+                                <button class="code-block__copy" data-code="export const generateImage = task({
+  id: 'generate-image-with-ai-alerts',
+  run: async (payload) => {
+    // Binary Beacons AI-Powered Alerts
+    await aiAlerts.monitor('image-generation-start');
+    
+    const result = await openai.images.generate({
+      model: 'dall-e-3',
+      prompt: payload.prompt,
+    });
+    
+    // Binary Beacons Smart Documentation
+    await docAssistant.generate({
+      operation: 'image-generation',
+      result: result
+    });
+    
+    return { imageUrl: result.data[0].url };
+  },
+});">Copy</button>
+                            </div>
+                            <pre class="code-block__content"><code><span class="code-comment">// Enhanced with Binary Beacons AI</span>
+<span class="code-keyword">export</span> <span class="code-keyword">const</span> <span class="code-function">generateImage</span> = <span class="code-function">task</span>({
+  <span class="code-property">id</span>: <span class="code-string">'generate-image-with-ai-alerts'</span>,
+  <span class="code-property">run</span>: <span class="code-keyword">async</span> (<span class="code-parameter">payload</span>) => {
+    <span class="code-comment">// Binary Beacons AI-Powered Alerts</span>
+    <span class="code-keyword">await</span> <span class="code-object">aiAlerts</span>.<span class="code-method">monitor</span>(<span class="code-string">'image-generation-start'</span>);
+    
+    <span class="code-keyword">const</span> <span class="code-variable">result</span> = <span class="code-keyword">await</span> <span class="code-object">openai</span>.<span class="code-property">images</span>.<span class="code-method">generate</span>({
+      <span class="code-property">model</span>: <span class="code-string">'dall-e-3'</span>,
+      <span class="code-property">prompt</span>: <span class="code-parameter">payload</span>.<span class="code-property">prompt</span>,
+    });
+    
+    <span class="code-comment">// Binary Beacons Smart Documentation</span>
+    <span class="code-keyword">await</span> <span class="code-object">docAssistant</span>.<span class="code-method">generate</span>({
+      <span class="code-property">operation</span>: <span class="code-string">'image-generation'</span>,
+      <span class="code-property">result</span>: <span class="code-variable">result</span>
+    });
+    
+    <span class="code-keyword">return</span> { <span class="code-property">imageUrl</span>: <span class="code-variable">result</span>.<span class="code-property">data</span>[<span class="code-number">0</span>].<span class="code-property">url</span> };
+  },
+});</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Binary Beacons AI Features Section -->
+            <section class="ai-features-showcase">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section__title glow-text">
+                            <span class="ai-icon">🤖</span>
+                            Binary Beacons AI Features
+                        </h2>
+                        <p class="section__subtitle">Revolutionary AI enhancements that transform your workflow automation</p>
+                    </div>
+                    
+                    <div class="ai-features-grid">
+                        <div class="ai-feature-card glass-card hover-lift" data-feature="alerts">
+                            <div class="ai-feature__header">
+                                <div class="ai-feature__icon">🤖</div>
+                                <div class="ai-feature__badge">by Binary Beacons</div>
+                            </div>
+                            <h3 class="ai-feature__title">AI-Powered Alerts</h3>
+                            <p class="ai-feature__description">Smart anomaly detection and intelligent notifications powered by Binary Beacons AI</p>
+                            <div class="ai-feature__features">
+                                <span class="feature-tag">Real-time anomaly detection</span>
+                                <span class="feature-tag">Predictive failure analysis</span>
+                                <span class="feature-tag">Smart notification routing</span>
+                            </div>
+                            <button class="ai-feature__btn glow-btn">Try AI Alerts</button>
+                        </div>
+
+                        <div class="ai-feature-card glass-card hover-lift" data-feature="marketplace">
+                            <div class="ai-feature__header">
+                                <div class="ai-feature__icon">🏪</div>
+                                <div class="ai-feature__badge">by Binary Beacons</div>
+                            </div>
+                            <h3 class="ai-feature__title">AI Workflow Templates Marketplace</h3>
+                            <p class="ai-feature__description">Curated AI workflow templates designed by Binary Beacons for rapid deployment</p>
+                            <div class="ai-feature__features">
+                                <span class="feature-tag">200+ pre-built templates</span>
+                                <span class="feature-tag">One-click deployment</span>
+                                <span class="feature-tag">Community contributions</span>
+                            </div>
+                            <button class="ai-feature__btn glow-btn magnetic-btn">Browse Templates</button>
+                        </div>
+
+                        <div class="ai-feature-card glass-card hover-lift" data-feature="docs">
+                            <div class="ai-feature__header">
+                                <div class="ai-feature__icon">📚</div>
+                                <div class="ai-feature__badge">by Binary Beacons</div>
+                            </div>
+                            <h3 class="ai-feature__title">AI-Powered Documentation Assistant</h3>
+                            <p class="ai-feature__description">Intelligent code documentation generation by Binary Beacons AI Assistant</p>
+                            <div class="ai-feature__features">
+                                <span class="feature-tag">Auto-generate documentation</span>
+                                <span class="feature-tag">Code comment suggestions</span>
+                                <span class="feature-tag">Multi-language support</span>
+                            </div>
+                            <button class="ai-feature__btn glow-btn ripple-btn">Generate Docs</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trusted by Section -->
+            <section class="trusted-by glass-section">
+                <div class="container">
+                    <h2 class="trusted-by__title">Trusted by industry leaders & enhanced by Binary Beacons</h2>
+                    <div class="trusted-by__logos">
+                        <div class="company-logo glass-logo">Vercel</div>
+                        <div class="company-logo glass-logo">Stripe</div>
+                        <div class="company-logo glass-logo">Shopify</div>
+                        <div class="company-logo glass-logo">Linear</div>
+                        <div class="company-logo glass-logo">Resend</div>
+                        <div class="company-logo glass-logo">Cal.com</div>
+                        <div class="company-logo glass-logo">Supabase</div>
+                        <div class="company-logo glass-logo">Clerk</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced How it Works Section -->
+            <section class="how-it-works enhanced-section">
+                <div class="container">
+                    <h2 class="section__title">How it works with Binary Beacons AI</h2>
+                    <div class="steps-grid">
+                        <div class="step glass-card animate-on-scroll">
+                            <div class="step__icon">1</div>
+                            <h3 class="step__title">Write AI-Enhanced Tasks</h3>
+                            <p class="step__description">Write background jobs with Binary Beacons AI monitoring, alerts, and documentation built-in.</p>
+                            <div class="step__enhancement">
+                                <span class="enhancement-badge">+AI Alerts</span>
+                                <span class="enhancement-badge">+Smart Docs</span>
+                            </div>
+                        </div>
+                        <div class="step glass-card animate-on-scroll">
+                            <div class="step__icon">2</div>
+                            <h3 class="step__title">Deploy with AI Templates</h3>
+                            <p class="step__description">Choose from 200+ Binary Beacons AI templates or deploy custom workflows with zero config.</p>
+                            <div class="step__enhancement">
+                                <span class="enhancement-badge">+AI Templates</span>
+                                <span class="enhancement-badge">+Auto Deploy</span>
+                            </div>
+                        </div>
+                        <div class="step glass-card animate-on-scroll">
+                            <div class="step__icon">3</div>
+                            <h3 class="step__title">Scale with AI Monitoring</h3>
+                            <p class="step__description">Advanced AI-powered monitoring, predictive scaling, and intelligent error handling by Binary Beacons.</p>
+                            <div class="step__enhancement">
+                                <span class="enhancement-badge">+AI Monitoring</span>
+                                <span class="enhancement-badge">+Predictive Scaling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced AI Apps Section -->
+            <section class="ai-apps enhanced-section">
+                <div class="container">
+                    <h2 class="section__title glow-text">Build invincible AI apps</h2>
+                    <p class="section__subtitle">Enhanced with Binary Beacons intelligence</p>
+                    <div class="ai-patterns-grid">
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">Autonomous Agent</h3>
+                            <p class="ai-pattern__description">AI agents with Binary Beacons smart monitoring and failure prediction.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 95%"></div>
+                                <span class="progress-text">95% success rate</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">Prompt Chaining</h3>
+                            <p class="ai-pattern__description">Multi-stage AI flows with Binary Beacons template optimization.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 88%"></div>
+                                <span class="progress-text">88% efficiency gain</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">Smart Routing</h3>
+                            <p class="ai-pattern__description">Intelligent task distribution with Binary Beacons AI optimization.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 92%"></div>
+                                <span class="progress-text">92% faster routing</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">AI Parallelization</h3>
+                            <p class="ai-pattern__description">Concurrent AI processing with Binary Beacons load balancing.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 96%"></div>
+                                <span class="progress-text">96% resource utilization</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">Smart Orchestrator</h3>
+                            <p class="ai-pattern__description">Multi-agent coordination with Binary Beacons AI conductor.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 90%"></div>
+                                <span class="progress-text">90% coordination accuracy</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                        <div class="ai-pattern glass-card hover-3d">
+                            <div class="pattern-badge">Binary Beacons Enhanced</div>
+                            <h3 class="ai-pattern__title">AI Evaluator-Optimizer</h3>
+                            <p class="ai-pattern__description">Self-improving AI with Binary Beacons learning algorithms.</p>
+                            <div class="pattern-progress">
+                                <div class="progress-bar" style="--progress: 87%"></div>
+                                <span class="progress-text">87% continuous improvement</span>
+                            </div>
+                            <a href="#" class="ai-pattern__link glow-link">View example →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced Features Grid Section -->
+            <section class="features-section enhanced-section">
+                <div class="container">
+                    <h2 class="section__title">Complete feature set enhanced by Binary Beacons</h2>
+                    <div class="features-categories">
+                        <div class="feature-category glass-card">
+                            <div class="category-header">
+                                <h3 class="feature-category__title">Development</h3>
+                                <div class="bb-enhancement">Enhanced by Binary Beacons</div>
+                            </div>
+                            <ul class="feature-list">
+                                <li><span class="ai-enhanced">AI-Assisted Task Creation</span></li>
+                                <li><span class="ai-enhanced">Smart Cron Scheduling</span></li>
+                                <li><span class="ai-enhanced">Realtime AI Monitoring</span></li>
+                                <li>Intelligent React Hooks</li>
+                                <li>Adaptive Duration Control</li>
+                                <li>AI Batch Optimization</li>
+                                <li>Smart Input/Output Validation</li>
+                                <li>Intelligent Wait Points</li>
+                                <li>AI-Powered Preview Branches</li>
+                            </ul>
+                        </div>
+                        <div class="feature-category glass-card">
+                            <div class="category-header">
+                                <h3 class="feature-category__title">Production</h3>
+                                <div class="bb-enhancement">Enhanced by Binary Beacons</div>
+                            </div>
+                            <ul class="feature-list">
+                                <li><span class="ai-enhanced">AI Waitpoint Optimization</span></li>
+                                <li><span class="ai-enhanced">Smart Concurrency Control</span></li>
+                                <li><span class="ai-enhanced">Intelligent Environment Management</span></li>
+                                <li>Zero Infrastructure with AI Scaling</li>
+                                <li>Predictive Retry Logic</li>
+                                <li>AI Build Extensions</li>
+                                <li>Smart Checkpointing</li>
+                                <li>Intelligent Versioning</li>
+                                <li>AI Machine Provisioning</li>
+                            </ul>
+                        </div>
+                        <div class="feature-category glass-card">
+                            <div class="category-header">
+                                <h3 class="feature-category__title">Observability</h3>
+                                <div class="bb-enhancement">Enhanced by Binary Beacons</div>
+                            </div>
+                            <ul class="feature-list">
+                                <li><span class="ai-enhanced">AI-Powered Monitoring</span></li>
+                                <li><span class="ai-enhanced">Intelligent Logging & Tracing</span></li>
+                                <li><span class="ai-enhanced">Smart Tagging System</span></li>
+                                <li>AI Run Filters</li>
+                                <li>Predictive Metadata Analysis</li>
+                                <li>Intelligent Bulk Actions</li>
+                                <li>AI Real-time Alerts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Binary Beacons Team Section -->
+            <section class="team-showcase">
+                <div class="container">
+                    <h2 class="section__title">Meet Binary Beacons</h2>
+                    <p class="section__subtitle">First Year Hackathon Champions</p>
+                    <div class="team-info glass-card">
+                        <div class="team-achievements">
+                            <div class="achievement-badge">🏆 Best Innovation Award</div>
+                            <div class="achievement-badge">👥 People's Choice</div>
+                            <div class="achievement-badge">⚡ Technical Excellence</div>
+                        </div>
+                        <div class="team-members">
+                            <div class="member">Team Lead</div>
+                            <div class="member">Frontend Developer</div>
+                            <div class="member">AI Specialist</div>
+                            <div class="member">UI/UX Designer</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer CTA Section -->
+            <section class="footer-cta enhanced-cta">
+                <div class="container">
+                    <h2 class="footer-cta__title glow-text">Ready to build with Binary Beacons AI?</h2>
+                    <p class="footer-cta__subtitle">Join the future of intelligent automation</p>
+                    <div class="footer-cta__options">
+                        <button class="btn btn--primary btn--lg glow-btn">Get started for free</button>
+                        <a href="#" class="btn btn--outline btn--lg glass-btn" data-page="pricing">View AI Pricing</a>
+                        <button class="btn btn--outline btn--lg glass-btn">Self-host with AI</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Other Pages (Product, Pricing, Examples) -->
+        <div id="product" class="page hidden">
+            <section class="page-hero enhanced-hero">
+                <div class="container">
+                    <h1 class="page-hero__title">AI-Enhanced Background Jobs</h1>
+                    <p class="page-hero__subtitle">Built by Binary Beacons for the future of automation</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="pricing" class="page hidden">
+            <section class="pricing-section enhanced-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h1 class="section__title">AI-Enhanced Pricing</h1>
+                        <p class="section__subtitle">Binary Beacons features included in all plans</p>
+                    </div>
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-card glass-card">
+                            <h3 class="pricing-card__name">Free</h3>
+                            <div class="pricing-card__price">
+                                <span class="price">$0</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-card__usage">$5 free monthly usage + Binary Beacons AI features</p>
+                            <div class="bb-features-badge">Binary Beacons Included</div>
+                            <ul class="pricing-card__features">
+                                <li>10 concurrent runs</li>
+                                <li><span class="ai-enhanced">AI-Powered Alerts (Basic)</span></li>
+                                <li><span class="ai-enhanced">5 AI templates access</span></li>
+                                <li><span class="ai-enhanced">Basic documentation AI</span></li>
+                                <li>5 team members</li>
+                                <li>Dev and Prod environments</li>
+                            </ul>
+                            <button class="btn btn--outline btn--full-width glass-btn">Get Started</button>
+                        </div>
+
+                        <div class="pricing-card pricing-card--popular glass-card">
+                            <div class="pricing-card__badge">Most Popular</div>
+                            <h3 class="pricing-card__name">Pro</h3>
+                            <div class="pricing-card__price">
+                                <span class="price">$50</span>
+                                <span class="period">/month</span>
+                            </div>
+                            <p class="pricing-card__usage">$50 monthly usage + Full AI suite</p>
+                            <div class="bb-features-badge">Binary Beacons Premium</div>
+                            <ul class="pricing-card__features">
+                                <li>100+ concurrent runs</li>
+                                <li><span class="ai-enhanced">AI-Powered Alerts (Enterprise)</span></li>
+                                <li><span class="ai-enhanced">Unlimited AI templates</span></li>
+                                <li><span class="ai-enhanced">Full documentation AI suite</span></li>
+                                <li>25+ team members</li>
+                                <li>Binary Beacons priority support</li>
+                            </ul>
+                            <button class="btn btn--primary btn--full-width glow-btn">Start Free Trial</button>
+                        </div>
+
+                        <div class="pricing-card glass-card">
+                            <h3 class="pricing-card__name">Enterprise</h3>
+                            <div class="pricing-card__price">
+                                <span class="price">Custom</span>
+                                <span class="period">pricing</span>
+                            </div>
+                            <p class="pricing-card__usage">Custom plan with Binary Beacons AI integration</p>
+                            <div class="bb-features-badge">Binary Beacons Enterprise</div>
+                            <ul class="pricing-card__features">
+                                <li>All Pro plan features</li>
+                                <li><span class="ai-enhanced">Custom AI model training</span></li>
+                                <li><span class="ai-enhanced">White-label Binary Beacons features</span></li>
+                                <li>24/7 priority support</li>
+                                <li>Dedicated Binary Beacons consultant</li>
+                            </ul>
+                            <button class="btn btn--outline btn--full-width glass-btn">Contact Sales</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="examples" class="page hidden">
+            <section class="examples-section enhanced-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h1 class="section__title">AI-Enhanced Examples</h1>
+                        <p class="section__subtitle">Powered by Binary Beacons intelligence</p>
+                    </div>
+                    
+                    <div class="examples-grid">
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category ai-enhanced-badge">AI Enhanced</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">AI Image Generation with Alerts</h3>
+                            <p class="example-card__description">DALL·E 3 integration with Binary Beacons AI-powered monitoring and failure alerts.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category">Media + AI</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">Smart Video Processing</h3>
+                            <p class="example-card__description">FFmpeg automation with AI workflow templates from our marketplace.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category ai-enhanced-badge">AI Enhanced</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">OpenAI with Smart Retrying</h3>
+                            <p class="example-card__description">Enhanced OpenAI integration with Binary Beacons predictive retry logic.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category">Documents + AI</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">AI-Documented PDF Processing</h3>
+                            <p class="example-card__description">PDF processing with auto-generated documentation using our AI assistant.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category">Automation + AI</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">Smart Web Scraping</h3>
+                            <p class="example-card__description">Puppeteer automation with AI-powered data extraction and alerts.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                        <div class="example-card glass-card hover-lift">
+                            <div class="example-card__category">Documents + AI</div>
+                            <div class="bb-badge">Binary Beacons</div>
+                            <h3 class="example-card__title">AI-Enhanced PDF Generation</h3>
+                            <p class="example-card__description">React-PDF with intelligent template selection from our AI marketplace.</p>
+                            <a href="#" class="example-card__link glow-link">View code →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- AI Feature Detail Modals -->
+    <div id="aiFeatureModal" class="modal hidden glass-modal">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content glass-card">
+            <div class="modal__header">
+                <h2 class="modal__title" id="modalTitle">AI Feature Details</h2>
+                <button class="modal__close" id="closeFeatureModal">&times;</button>
+            </div>
+            <div class="modal__body" id="modalContent">
+                <!-- Dynamic content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign-up Modal -->
+    <div id="signupModal" class="modal hidden glass-modal">
+        <div class="modal__backdrop"></div>
+        <div class="modal__content glass-card">
+            <div class="modal__header">
+                <h2 class="modal__title">Join Binary Beacons AI</h2>
+                <button class="modal__close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal__body">
+                <form class="signup-form">
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" id="email" class="form-control glass-input" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company name</label>
+                        <input type="text" id="company" class="form-control glass-input" placeholder="Enter your company name">
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width glow-btn">Join Binary Beacons</button>
+                </form>
+                <p class="signup-form__footer">Already have an account? <a href="#" class="glow-link">Sign in</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-spinner">
+            <div class="spinner-ring"></div>
+            <div class="spinner-ring"></div>
+            <div class="spinner-ring"></div>
+            <span class="loading-text">Initializing Binary Beacons AI...</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
